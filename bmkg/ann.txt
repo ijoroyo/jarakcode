@@ -1,0 +1,42 @@
+                    Length Class      Mode    
+call                     7 -none-     call    
+response              4093 -none-     numeric 
+covariate           106418 -none-     numeric 
+model.list               2 -none-     list    
+err.fct                  1 -none-     function
+act.fct                  1 -none-     function
+linear.output            1 -none-     logical 
+data                    27 data.frame list    
+exclude                  0 -none-     NULL    
+net.result               1 -none-     list    
+weights                  1 -none-     list    
+generalized.weights      1 -none-     list    
+startweights             1 -none-     list    
+result.matrix          620 -none-     numeric 
+
+Confusion Matrix and Statistics
+
+          Reference
+Prediction   0   1
+         0 584  12
+         1   1   1
+                                          
+               Accuracy : 0.9783          
+                 95% CI : (0.9631, 0.9884)
+    No Information Rate : 0.9783          
+    P-Value [Acc > NIR] : 0.573049        
+                                          
+                  Kappa : 0.1283          
+                                          
+ Mcnemar's Test P-Value : 0.005546        
+                                          
+            Sensitivity : 0.99829         
+            Specificity : 0.07692         
+         Pos Pred Value : 0.97987         
+         Neg Pred Value : 0.50000         
+             Prevalence : 0.97826         
+         Detection Rate : 0.97659         
+   Detection Prevalence : 0.99666         
+      Balanced Accuracy : 0.53761         
+                                          
+       'Positive' Class : 0  
